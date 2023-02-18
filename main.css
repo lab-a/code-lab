@@ -1,18 +1,49 @@
+head{
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS';
+}
+
 
 body{
     background-color: aliceblue;
     font-family: 'Trebuchet MS';
 }
 
+.nav-bar{
+    list-style-type: none;
+    margin: auto;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-links{
+    float: left;
+}
+
+.nav-a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-a:hover{
+    background-color: plum;
+    text-emphasis: none;
+    text-emphasis-color: white;
+}
 
 .grid-container{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 50px 100px;
 }
 
 .grid-item{
     display: inline-grid;
-    background-color: plum;
+    background-color: rgb(212, 179, 212);
     text-align: justify;
     padding: auto;
     font-size: medium;
