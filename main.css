@@ -1,4 +1,8 @@
 
+body{
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS';
+}
 
 
 .grid-container{
@@ -8,4 +12,8 @@
 
 .grid-item{
     display: inline-grid;
+    background-color: plum;
+    text-align: justify;
+    padding: auto;
+    font-size: medium;
 }
