@@ -9,6 +9,10 @@ body{
     font-family: 'Trebuchet MS';
 }
 
+.nav-div{
+    margin-bottom: 40px;
+}
+
 .nav-bar{
     list-style-type: none;
     margin: auto;
@@ -24,6 +28,7 @@ body{
 .nav-a{
     display: block;
     color: white;
+    font-size: 15px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
