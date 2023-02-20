@@ -61,6 +61,8 @@ img {
     text-align: justify;
     padding: auto;
     font-size: medium;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .grid-item:hover{
