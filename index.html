@@ -1,81 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width"/>
-    <link rel="stylesheet" type="text/css" href="../code-lab/stylesheets/main.css">
-
-    <title>Learning How to Code</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Valentine's Proposal</title>
 </head>
 
 <body>
-
-    <h1>Welcome to my Blog</h1>
-
-    <div class="nav-div">
-    <nav>
-        <ul class="nav-bar">
-            <li class="nav-links"><a class="nav-a" href="index.html">Home</a></li>
-            <li class="nav-links"><a class="nav-a" href="../code-lab/projects/projects.html">Projects</a></li>
-            <li class="nav-links"><a class="nav-a" href="index.html">Daily Posts</a></li>
-            <li class="nav-links"><a class="nav-a" href="../code-lab/portfolio/portfolio.html">Portfolio</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Hey beautiful!</h1>
+            <p class="pp" id="question">Will you be my Valentine?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">No</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Yes</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Nice try, but you can't escape that easily!</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>YAY! See you on the 14th, babygirl.</p>
+            </div>
+        </div>
     </div>
-
-    <div class="grid-container">
-
-        <div class="grid-item">
-            <article>
-                <div>
-                    <a href="posts/post1/post1.html"><img src="posts/post1/halsey_bad_at_love-portada.jpg"></a>
-                </div>
-                <h2>
-                    <a href="posts/post1/post1.html">Post 1</a>
-                </h2>
-                <h4>fecha</h4>
-                <p>descripción</p>
-                
-            </article>
-        </div>
-
-        <div class="grid-item">
-            <article>
-                <div>
-                    <p>imagen</p>
-                    <h2>titulo</h2>
-                    <h4>fecha</h4>
-                    <p>descripción</p>
-                </div>
-            </article>
-        </div>
-
-        <div class="grid-item">
-            <article>
-                <div>
-                    <p>imagen</p>
-                    <h2>titulo</h2>
-                    <h4>fecha</h4>
-                    <p>descripción</p>
-                </div>
-            </article>
-        </div>
-
-        <div class="grid-item">
-            <article>
-                <div>
-                    <p>imagen</p>
-                    <h2>titulo</h2>
-                    <h4>fecha</h4>
-                    <p>descripción</p>
-                </div>
-            </article>
-        </div>
-
-
-    </div>
-
+    <script src="script.js"></script>
 </body>
+
 </html>
